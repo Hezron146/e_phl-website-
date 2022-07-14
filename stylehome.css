@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Bagian Text */
+.container{
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Logo dan Login */
+.barlog{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.767);
+}
+
+.header{
+    height: 50px;
+    width: 100%;
+    background-color: rgba(88, 88, 88, 0.527);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-right{
+    float: right;
+    background-color: rgb(100, 100, 100);
+    transition: all 0.5s;
+}
+
+.header-right:hover{
+    background-color: rgba(182, 182, 182, 0.63);
+}
+
+.header-right a {
+    line-height: 80px;
+    padding: 0 30px;
+    color: rgb(0, 0, 0);
+    display: block;
+}
+
+.logo {
+    font-size: 30px;
+    color:rgb(240, 240, 240);
+    padding: 15px 0px;
+    float: left;
+}
+
+/* Tampilan Utama dan Gambar */
+.top-wrapper {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url(https://glints-dashboard.s3.amazonaws.com/event-banner-pic/87ad4b5235cfe405313e955d35e6cd94.jpg);
+    background-size: cover;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.top-wrapper h1{
+    font-size: 25px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p{
+    margin-bottom: 3px;
+}
+
+/* Kolom Konversi Surat */
+.lesson-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: rgb(181, 185, 125);
+    text-align: center;
+}
+
+/* Pilih Surat */
+.lessonchoose {
+    float: left;
+    width: 25%;
+    background-color: rgb(184, 53, 53);
+}
+
+.lessonchoose-icon {
+    position: relative;
+}
+
+.lessonchoose-icon p{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    color:rgb(0, 0, 0);
+}
+
+.txt-contentschoose {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+}
+
+/* Isi Surat */
+.lessonform {
+    float: left;
+    width: 25%;
+    background-color: rgb(62, 62, 124);
+}
+
+.lessonform-icon {
+    position: relative;
+}
+
+.lessonform-icon p{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    color:rgb(0, 0, 0);
+}
+
+.txt-contentsform {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+}
+
+
+/* Mengubah Form */
+.lessonconvert {
+    float: left;
+    width: 25%;
+    background-color: rgb(50, 129, 34);
+}
+
+.lessonconvert-icon {
+    position: relative;
+}
+
+.lessonconvert-icon p{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    color:rgb(0, 0, 0);
+}
+
+.txt-contentsconvert {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+}
+
+/* Form jadi */
+.lessonpdf {
+    float: left;
+    width: 25%;
+    background-color: whitesmoke;
+}
+
+.lessonpdf-icon {
+    position: relative;
+}
+
+.lessonpdf-icon p{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    color:rgb(0, 0, 0);
+}
+
+.txt-contentspdf {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+}
+
+/* Pesan */
+.message-wrapper {
+    border-bottom: 1px solid rgb(80, 151, 98);
+    padding-bottom: 80px;
+    text-align: center;
+    background-color: rgb(139, 139, 139);
+}
+
+
+.heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.heading h2{
+    font-weight: normal;
+}
+
+.navbar {
+    display: flex;
+    background-color: #333;
+}
+
+.message {
+    padding: 15px 40px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.heading h3 {
+    font-weight: normal;
+}
+
+.footer {
+    height: 100px;
+    padding-bottom: 80px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.btn{
+    padding: 12px 24px;
+    color: rgb(53, 53, 53);
+    display: inline-block;
+    opacity: 1;
+}
+
